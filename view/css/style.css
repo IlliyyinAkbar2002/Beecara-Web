@@ -111,6 +111,12 @@ h2 {
   font-size: 14px;
 }
 
+.half .back-to-login {
+  position: relative;
+  top: 2px;
+  font-size: 14px;
+}
+
 .half .back-to-home {
   position: relative;
   top: -36px;
