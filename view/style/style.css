@@ -6,6 +6,8 @@ body {
     box-shadow: 0px 0px 5px 1px gray;
 }
 
+
+
 .sectionHero {
     display: flex;
     justify-content: space-between;
@@ -18,7 +20,7 @@ body {
 
     /* border: 1px solid black; */
 
-    .descriptionHero {
+    /* .descriptionHero {
         border: 1px solid black;
 
         height: 18rem;
@@ -29,7 +31,7 @@ body {
         align-items: center;
 
         border-radius: 3rem;
-    }
+    } */
 
     .imageHero {
         border: 1px solid black;
@@ -44,6 +46,8 @@ body {
         border-radius: 3rem;
     }
 }
+
+
 
 .carousel {
     border: 1px solid black;
