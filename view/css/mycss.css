@@ -1,0 +1,14 @@
+.My-image {
+    background-color: #DED0B6;
+    z-index: 1;
+}
+
+.My-image .Image {
+    width: 50%;
+    height: 50%;
+    background-image: url("../../local/login1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
