@@ -1,8 +1,9 @@
 # Local assets
 local
 
-# ignored folder .venv
-.venv
+# ignored  all folder .venv
+.venv/
+
 
 # ignored folder __pycache__
 __pycache__
