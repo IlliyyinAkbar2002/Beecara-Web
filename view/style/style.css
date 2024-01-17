@@ -135,5 +135,21 @@ body {
 }
 
 .footer p {
+    margin-top: 1.5rem;
+    font-size: 20px;
+}
+
+.footer-1 {
+    margin-top: 5.5rem;
+    height: 5rem;
+    box-shadow: 0px -5px 4px #00000040;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-1 p {
+    margin-top: 1.5rem;
     font-size: 20px;
 }
