@@ -1,10 +1,44 @@
 # Beecara-Web
 
-This project, Beecara-Web, was developed during a hackathon competition. It's a web application that provides an interactive and user-friendly interface for users to navigate through various components.
+Beecara-Web is a web application designed to provide a user-friendly interface for users to log in and interact with the Beecara system. The project is structured to support a clean separation of concerns, with a clear distinction between the front-end presentation and back-end logic.
 
-The application includes features such as user authentication, a carousel for displaying a collection of items, and card elements for presenting information in a visually appealing manner. Each card includes a title, description, and a button for navigating to more detailed information about the item.
+# Role Hacker 
+- Illiyyin Akbar Ariyanto
+- Ezra Gilang 
 
-The project utilizes Bootstrap for creating a responsive and mobile-first website, and Icomoon font for icons. The styles are written in SCSS, a preprocessor scripting language that is interpreted or compiled into CSS, making the CSS more efficient and easier to maintain.
+## Features
 
-Please refer to the individual sections below for more detailed information about the setup, usage, and contribution guidelines.
-Hackathon comp build web
+- **User Authentication**: Secure login functionality with a sleek, responsive design.
+- **Responsive Design**: The application is built using Bootstrap and custom styles to ensure a seamless experience on both desktop and mobile devices.
+- **Easy Navigation**: Users can easily navigate back to the home page with a dedicated "Back to home" link.
+
+## Project Structure
+
+- `assets`: Contains static files like images, fonts, and icons used across the application.
+- `local`: A directory for local configurations and settings, if any.
+- `templates`: Holds the HTML templates for the application, including the login page.
+- `app.py`: The main entry point for the web application, handling routing and server-side logic.
+- `.gitignore`: Specifies intentionally untracked files to ignore.
+- `.venv`: A virtual environment directory for Python, encapsulating all dependencies.
+
+## Getting Started
+
+To get started with Beecara-Web, clone the repository and set up a virtual environment:
+
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Create a virtual environment:
+4. Activate the virtual environment:
+   - On Windows: 
+   - On Unix or MacOS:
+5. Install the required dependencies:
+6. Run the application:
+
+
+## Contributing
+
+Contributions to Beecara-Web are welcome. Please ensure that your code adheres to the project's coding standards and include tests for new features.
+
+## License
+
+Beecara-Web is released under the [MIT License](LICENSE).
