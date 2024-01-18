@@ -1,44 +1,16 @@
-# Beecara-Web
+# Flask Back End
 
-Beecara-Web is a web application designed to provide a user-friendly interface for users to log in and interact with the Beecara system. The project is structured to support a clean separation of concerns, with a clear distinction between the front-end presentation and back-end logic.
+## Description
+Flask is a lightweight and powerful web framework for Python. It's designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.
 
-# Role Hacker 
-- Illiyyin Akbar Ariyanto
-- Ezra Gilang 
+In this project, Flask is used to create the back end. It handles HTTP requests, manages databases, and provides the necessary APIs for the front end. Flask's simplicity and flexibility allow us to develop and integrate complex web functionalities with ease.
 
-## Features
+Flask's features in this project include:
+- URL routing
+- Template engine
+- Error handling
+- Static files
+- Cookies handling
+- Sessions
 
-- **User Authentication**: Secure login functionality with a sleek, responsive design.
-- **Responsive Design**: The application is built using Bootstrap and custom styles to ensure a seamless experience on both desktop and mobile devices.
-- **Easy Navigation**: Users can easily navigate back to the home page with a dedicated "Back to home" link.
-
-## Project Structure
-
-- `assets`: Contains static files like images, fonts, and icons used across the application.
-- `local`: A directory for local configurations and settings, if any.
-- `templates`: Holds the HTML templates for the application, including the login page.
-- `app.py`: The main entry point for the web application, handling routing and server-side logic.
-- `.gitignore`: Specifies intentionally untracked files to ignore.
-- `.venv`: A virtual environment directory for Python, encapsulating all dependencies.
-
-## Getting Started
-
-To get started with Beecara-Web, clone the repository and set up a virtual environment:
-
-1. Clone the repository:
-2. Navigate to the project directory:
-3. Create a virtual environment:
-4. Activate the virtual environment:
-   - On Windows: 
-   - On Unix or MacOS:
-5. Install the required dependencies:
-6. Run the application:
-
-
-## Contributing
-
-Contributions to Beecara-Web are welcome. Please ensure that your code adheres to the project's coding standards and include tests for new features.
-
-## License
-
-Beecara-Web is released under the [MIT License](LICENSE).
+This project uses Flask due to its simplicity, extensive documentation, and large community support. It's a great choice for developers who want to build web applications with Python.
