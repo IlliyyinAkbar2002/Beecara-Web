@@ -1,0 +1,253 @@
+body {
+    height: 150vh;
+}
+
+.navbar {
+    box-shadow: 0px 0px 5px 1px gray;
+}
+
+.sectionHero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 93%;
+    height: 20rem;
+
+    margin: auto;
+
+    /* border: 1px solid black; */
+
+    .descriptionHero {
+        border: 1px black;
+        position: relative;
+        height: 20rem;
+        width: 50rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descriptionHero .judul {
+        border: 1px black;
+        width: 40rem;
+        position: relative;
+        top: 0rem;
+        left: 5rem;
+    }
+
+    .descriptionHero .judul h1 {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 400;
+        font-family: "Comfortaa", sans-serif;
+
+    }
+
+    .descriptionHero .judul h1 .red {
+        color: red;
+    }
+
+    .descriptionHero .judul h1 .grey {
+        color: #607274;
+    }
+
+    .descriptionHero .judul h1 .black {
+        color: black;
+    }
+
+    .descriptionHero .desc {
+        border: 1px pink;
+        position: relative;
+        top: 10px;
+        font-family: "Comfortaa", sans-serif;
+
+    }
+
+    .descriptionHero .desc p {
+        font-size: 30px;
+        text-align: center;
+        color: black;
+    }
+
+
+    .imageHero {
+        border: 1px black;
+        height: 20rem;
+        width: 30rem;
+        position: relative;
+        display: flex;
+        text-align: center;
+        border-radius: 5rem;
+    }
+
+    .imageHero .img {
+        position: relative;
+        top: -5px;
+        height: 21rem;
+        width: 30rem;
+        background-image: url(../../local/depresi.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.carousel {
+    margin-top: 1.5rem;
+}
+
+.carouselContent {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.News {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+    height: 25rem;
+
+    .titleNews {
+        border: 1px black;
+        margin-bottom: 1rem;
+        width: 40rem;
+        height: 4rem;
+        border-radius: 2rem;
+        background-color: #DED0B6;
+        box-shadow: 4px 4px 4.8px #00000040;
+    }
+
+    .titleNews p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+        font-family: "Comfortaa", sans-serif;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    .listNews {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 90%;
+        height: 10rem;
+
+        .news1 {
+            border: 1px black;
+            width: 15rem;
+            height: 10rem;
+            border-radius: 2rem;
+            background-image: url(../../assets/person-suffering-from-ptsd.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            box-shadow: 0px 2px 3px 0px rgba(196, 196, 196, 0.582), 0px 6px 10px 4px rgba(112, 112, 112, 0.632);
+        }
+
+        .news1 .layer {
+            border: 1px black;
+            height: 10rem;
+            width: 15rem;
+            border-radius: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 73.6%);
+        }
+
+        .news1 .teks {
+            border: 1px black;
+            position: relative;
+            top: 2.8rem;
+            border-radius: 0 0 2rem 2rem;
+        }
+
+        .news1 .teks p {
+            text-align: center;
+            font-family: "Comfortaa", sans-serif;
+            font-size: 14px;
+        }
+
+    }
+}
+
+.footer {
+    margin-top: 1.5rem;
+    height: 5rem;
+    box-shadow: 0px -5px 4px #00000040;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+/* dashboard */
+.konten {
+    border: 1px black;
+    position: relative;
+    top: 2rem;
+    height: 15vh;
+    text-align: center;
+}
+
+.konten h1 {
+    font-size: 50px;
+    position: relative;
+    top: 1rem;
+    font-weight: 400;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.disclaimer {
+    border: 1px black;
+    height: 25vh;
+    position: relative;
+    top: 2rem;
+    display: flex;
+    background-color: #EB6E6E;
+}
+
+.disclaimer .kiri {
+    border: 1px black;
+    height: 100%;
+    width: 50%;
+}
+
+.disclaimer .kiri h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    position: relative;
+    top: 2.5rem;
+    left: 2.5rem;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.disclaimer .kanan {
+    border: 1px black;
+    width: 90%;
+}
+
+.disclaimer .kanan p {
+    font-size: 25px;
+    text-align: justify;
+    padding: 5px;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+}
+
+
+/* dashboard */
