@@ -2,8 +2,8 @@
 local
 
 # # ignored  all folder .venv
-# .venv/
+.venv/
 
 
 # # ignored folder __pycache__
-# __pycache__
+__pycache__
