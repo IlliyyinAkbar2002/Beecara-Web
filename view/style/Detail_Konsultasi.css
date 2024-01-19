@@ -1,0 +1,18 @@
+.img-size {
+    width: 85%;
+    height: auto;
+}
+
+.footer {
+    margin-top: 1.5rem;
+    height: 5rem;
+    box-shadow: 0px -5px 4px #00000040;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 20px;
+}
