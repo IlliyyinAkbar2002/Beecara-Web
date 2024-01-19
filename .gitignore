@@ -1,2 +1,12 @@
 # Local assets
 local
+
+# ignore folder .venv
+.venv
+
+# Ignore file 
+flaskr
+instance
+MANIFEST.in
+tests
+pyproject.toml
