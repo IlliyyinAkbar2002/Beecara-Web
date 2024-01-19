@@ -126,6 +126,10 @@ env/
 venv/
 ENV/
 env.bak/
+.venv/Lib/site-packages/_distutils_hack/
+.venv/Lib/site-packages/setuptools/dist.py
+.venv/Lib/site-packages/setuptools/extension.py
+.venv/Lib/site-packages/setuptools/command/
 venv.bak/
 
 # Spyder project settings
