@@ -3,6 +3,33 @@
     height: auto;
 }
 
+.btn-group {
+    margin-left: 3rem;
+    
+    button {
+        width: 7rem;
+        height: 3rem;
+    }
+}
+
+.imageHero {
+    border: 1px black;
+    position: relative;
+    display: flex;
+    text-align: center;
+    border-radius: 5rem;
+}
+
+.imageHero .img {
+    position: relative;
+    top: -5px;
+    height: 21rem;
+    width: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .footer {
     margin-top: 1.5rem;
     height: 5rem;
